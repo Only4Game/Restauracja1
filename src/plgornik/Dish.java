@@ -22,41 +22,15 @@ public class Dish {
         return name;
     }
 
-    public void setName(String name) {
-        this.name = name;
-    }
 
     public String[] getIngredients() {
         return ingredients;
-    }
-
-    public void setIngredients(String[] ingredients) {
-        this.ingredients = ingredients;
     }
 
     public Double getCost() {
         return cost;
     }
 
-    public void setCost(Double cost) {
-        this.cost = cost;
-    }
-
-    public String getType() {
-        return type;
-    }
-
-    public void setType(String type) {
-        this.type = type;
-    }
-
-    public DishType getDishType() {
-        return dishType;
-    }
-
-    public void setDishType(DishType dishType) {
-        this.dishType = dishType;
-    }
 
     public void displayInfo() {
         System.out.println("\n\n========================\n" +
